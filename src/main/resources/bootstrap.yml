@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: fantacalcio-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/acichon89/fantacalcio-config.git
